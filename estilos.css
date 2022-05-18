@@ -1,0 +1,81 @@
+body{
+	background-color: lightgray;
+}
+
+h1, #zonaDibujo{
+	text-align:center;
+}
+
+#tablero{
+	box-shadow: 3px 0 1px 2px lightslategray;
+	border-radius: 1%;
+	background-color: #FFF;
+}
+
+#tablero tr{
+	height:10px;
+}
+
+#tablero td{
+	width: 10px;
+	height:10px;
+	margin: 0px;
+	padding: 0px;
+	border-collapse:collapse;
+}
+.color1 {
+	background-color: #FF0;
+}
+.color2 {
+	background-color: #0F0;
+}
+.color3 {
+	background-color: #000;
+}
+.color4 {
+	background-color: #F00;
+}
+.color5 {
+	background-color: #06C;
+}
+.color6 {
+	background-color: #FFF;
+}
+
+#paleta td{
+	width: 75px;
+	height: 20px;
+    border: 1px;
+	border-style:solid;
+	border-color:black;
+}
+
+#pincel{
+	margin: 0px auto;
+	text-align: center;
+    font-size: 16pt;
+}
+
+
+caption {
+    font-size: 16pt;
+}
+
+table {
+    border:1px solid grey;
+	border-spacing:	0px;
+	margin: 0 auto;
+	border-color:black;
+	width:auto;
+	
+}
+#paleta td.seleccionado{
+	border: 3px !important;
+	border-style: dotted !important;
+	border-color:rgb(250,0,190) !important;
+}
+
+.clear{
+	clear:both;
+}
+
